@@ -11717,6 +11717,15 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
+        time: 0.95
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
         time: 1.5
         value: 0
         inSlope: Infinity
@@ -26506,6 +26515,15 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.95
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -49127,7 +49145,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: HoodBack
+    path: Eyes
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -49137,7 +49155,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: HoodBack
+    path: Eyes
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -49147,7 +49165,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: HoodBack
+    path: Eyes
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -50207,7 +50225,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Eyes
+    path: HoodBack
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -50217,7 +50235,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Eyes
+    path: HoodBack
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -50227,7 +50245,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Eyes
+    path: HoodBack
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
