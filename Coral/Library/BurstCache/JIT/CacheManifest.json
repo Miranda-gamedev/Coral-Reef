@@ -7,7 +7,7 @@
     },
     {
       "FullName": "Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-10-27T00:16:30.1618434Z"
+      "LastWriteTime": "2022-10-27T01:03:32.2299618Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -19,15 +19,15 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-10-27T00:16:30.24163Z"
+      "LastWriteTime": "2022-10-27T01:03:32.2738433Z"
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-10-27T00:16:30.2905014Z"
+      "LastWriteTime": "2022-10-27T01:03:32.2718495Z"
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-10-27T00:16:30.1638383Z"
+      "LastWriteTime": "2022-10-27T01:03:32.2718495Z"
     },
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -35,11 +35,11 @@
     },
     {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-10-27T00:16:30.2117099Z"
+      "LastWriteTime": "2022-10-27T01:03:32.2628731Z"
     },
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-10-27T00:16:30.1748087Z"
+      "LastWriteTime": "2022-10-27T01:03:32.2379394Z"
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -176,8 +176,8 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
         4,
+        2,
         3
       ]
     },
@@ -214,8 +214,8 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        4,
         2,
+        4,
         3
       ]
     },
