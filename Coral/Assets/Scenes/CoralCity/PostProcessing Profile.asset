@@ -66,38 +66,9 @@ MonoBehaviour:
   m_Name: PostProcessing Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 1592498820356072539}
   - {fileID: 7645167333072853633}
   - {fileID: -2071877689782806967}
   - {fileID: -2970540918908140234}
---- !u!114 &1592498820356072539
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
-  m_Name: Vignette
-  m_EditorClassIdentifier: 
-  active: 0
-  color:
-    m_OverrideState: 1
-    m_Value: {r: 0.19441079, g: 0.8113208, b: 0.75506455, a: 1}
-  center:
-    m_OverrideState: 1
-    m_Value: {x: 0.47, y: 0.5}
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0.34
-  smoothness:
-    m_OverrideState: 1
-    m_Value: 0.14
-  rounded:
-    m_OverrideState: 1
-    m_Value: 0
 --- !u!114 &7645167333072853633
 MonoBehaviour:
   m_ObjectHideFlags: 3
