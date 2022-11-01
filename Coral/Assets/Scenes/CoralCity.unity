@@ -2724,12 +2724,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131267870}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.4, y: -0.37999916, z: 4}
+  m_LocalPosition: {x: 13.676264, y: -70.50369, z: -131.89845}
   m_LocalScale: {x: 55.26, y: 55.26, z: 55.26}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 319401388}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &134151444
 GameObject:
@@ -3318,13 +3318,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152862628}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.63945, y: 15.100987, z: 77.172554}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 43.84752, y: 11.600226, z: 14.371845}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 590633566}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &158140713
 GameObject:
@@ -3562,7 +3562,7 @@ MonoBehaviour:
   storyText: Did you help with the starfish outbreak? A few are ok, but too many
     overwhelm the coral.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 179287369}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3641,8 +3641,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 163792919}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -4081,6 +4080,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176885862}
   m_CullTransparentMesh: 1
+--- !u!1 &179287368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179287370}
+  - component: {fileID: 179287369}
+  m_Layer: 0
+  m_Name: Parrotfish person
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &179287369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179287368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Parrotfish Person
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 1277004117}
+  description: 
+--- !u!4 &179287370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179287368}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.433929, y: 22.558327, z: -137.89217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1395797195}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &180159137
 GameObject:
   m_ObjectHideFlags: 3
@@ -5389,7 +5439,7 @@ MonoBehaviour:
   storyText: I heard the coral was coming back, but it still looks pretty bleak round
     here...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276614070}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5484,8 +5534,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 241027112}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -5515,7 +5564,7 @@ MonoBehaviour:
   storyText: Their skin is covered in mucus, so they can go right through any stinging
     anemones like these!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276614070}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5543,7 +5592,7 @@ MonoBehaviour:
   storyText: Maybe I can help. If you can get me one zooxanthellae, I can call the
     clownfish.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276614070}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5596,7 +5645,7 @@ Transform:
   - {fileID: 1576478117}
   - {fileID: 1862633702}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &243927959
 GameObject:
@@ -6946,8 +6995,9 @@ Transform:
   - {fileID: 144959833}
   - {fileID: 122244342}
   - {fileID: 560415340}
+  - {fileID: 131267874}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &320133059
 GameObject:
@@ -7767,7 +7817,7 @@ RectTransform:
   - {fileID: 1288153906}
   - {fileID: 1582713517}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8332,7 +8382,7 @@ MonoBehaviour:
   storyText: If you need to get past any more anemones, just stand next to them and
     pick the clownfish!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276614070}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9136,7 +9186,7 @@ Transform:
   - {fileID: 653139982}
   - {fileID: 1476526313}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &445155420
 GameObject:
@@ -9290,7 +9340,7 @@ Transform:
   - {fileID: 1084437637}
   - {fileID: 1184241195}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &450543437
 GameObject:
@@ -9980,6 +10030,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &500353531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 500353532}
+  - component: {fileID: 500353533}
+  m_Layer: 0
+  m_Name: Jellyfish person
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &500353532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500353531}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.433929, y: 22.558327, z: -137.89217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1395797195}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &500353533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500353531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Jellyfish person
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 1277004117}
+  description: 
 --- !u!1 &507612683
 GameObject:
   m_ObjectHideFlags: 0
@@ -10022,7 +10123,7 @@ Transform:
   - {fileID: 600117306}
   - {fileID: 343594819}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &507612685
 MonoBehaviour:
@@ -11269,7 +11370,7 @@ Transform:
   - {fileID: 1906310240}
   - {fileID: 717084220}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &553336227
 GameObject:
@@ -12726,7 +12827,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &569568719
 AudioSource:
@@ -13072,7 +13173,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &571273539
 GameObject:
@@ -13801,8 +13902,9 @@ Transform:
   - {fileID: 570187067}
   - {fileID: 2138318833}
   - {fileID: 948805696}
+  - {fileID: 152862631}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &590753727
 GameObject:
@@ -15437,6 +15539,70 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666343480}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &670118385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 670118388}
+  - component: {fileID: 670118387}
+  - component: {fileID: 670118386}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &670118386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670118385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: f06fe8f1e3823b14592be9012126e7ae, type: 2}
+--- !u!114 &670118387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670118385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!4 &670118388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670118385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 875.067, y: 545.8296, z: -11.099976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &670128146
 GameObject:
   m_ObjectHideFlags: 0
@@ -15605,6 +15771,57 @@ Transform:
   m_Father: {fileID: 2092522725}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &676645469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 676645470}
+  - component: {fileID: 676645471}
+  m_Layer: 0
+  m_Name: Triton person
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &676645470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676645469}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.433929, y: 22.558327, z: -137.89217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1395797195}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &676645471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676645469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Triton person
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 1277004117}
+  description: 
 --- !u!1 &680494069
 GameObject:
   m_ObjectHideFlags: 0
@@ -16549,7 +16766,7 @@ Transform:
   m_Children:
   - {fileID: 296603043}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &723606044 stripped
 Transform:
@@ -17452,7 +17669,7 @@ MonoBehaviour:
     this shop. I'll need the parrotfish to come help too... They love to munch on
     seaweed like this here!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 179287369}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17477,7 +17694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 652
+    x: 653
     y: 127
     width: 112.4
     height: 40
@@ -17518,8 +17735,7 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 745425089}
-  selectedCommands:
-  - {fileID: 745425092}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -17548,7 +17764,7 @@ MonoBehaviour:
   storyText: 'Just walk right up to some seaweed and pick the parrotfish to help
     you out. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 179287369}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17576,7 +17792,7 @@ MonoBehaviour:
   storyText: They have teeth fused together like a birds beak, perfect for scraping
     the seaweed away!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 179287369}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -19341,7 +19557,7 @@ Transform:
   - {fileID: 239317111}
   - {fileID: 1151692859}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &804994305
 GameObject:
@@ -21921,7 +22137,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &953273891
 GameObject:
@@ -22950,6 +23166,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1020111662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1020111663}
+  m_Layer: 0
+  m_Name: Particles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1020111663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020111662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.433929, y: -22.558327, z: 137.89217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2004974740}
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1031935337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25908,6 +26156,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: 12b74c2d2ae190f4dab2756b848dfd19, type: 3}
   m_PrefabInstance: {fileID: 1150479499}
   m_PrefabAsset: {fileID: 0}
+--- !u!210 &1150479503
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150479500}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!4 &1151680593 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6270541141472156873, guid: dacf696b1e09ee04da6fc7cee439255d, type: 3}
@@ -26691,7 +26950,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1203649925
 GameObject:
@@ -27924,7 +28183,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1254036759
 MonoBehaviour:
@@ -28455,6 +28714,57 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273455306}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1276614068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1276614069}
+  - component: {fileID: 1276614070}
+  m_Layer: 0
+  m_Name: Clownfish person
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1276614069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276614068}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.433929, y: 22.558327, z: -137.89217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1395797195}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1276614070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276614068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Clownfish Person
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 1277004117}
+  description: 
 --- !u!1 &1276668075
 GameObject:
   m_ObjectHideFlags: 0
@@ -28595,18 +28905,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277004116}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -137.89217}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 80913836}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1395797195}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 15.433929, y: 22.558327}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1277004119
@@ -31300,6 +31610,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1395797194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1395797195}
+  m_Layer: 0
+  m_Name: Fungus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1395797195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395797194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.433929, y: -22.558327, z: 137.89217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 179287370}
+  - {fileID: 1277004118}
+  - {fileID: 1276614069}
+  - {fileID: 500353532}
+  - {fileID: 1512076647}
+  - {fileID: 676645470}
+  m_Father: {fileID: 0}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1404022059
 GameObject:
   m_ObjectHideFlags: 0
@@ -31752,7 +32099,7 @@ MonoBehaviour:
   storyText: 'You would like to help? Ok! First, you need to find some zooxanthellae.
     About 3 should do. Look for the little green circles. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -31833,7 +32180,7 @@ MonoBehaviour:
   storyText: 'If we can collect zooxanthellae and give them back to the coral polyps,
     then they should be able to recover! '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -31861,7 +32208,7 @@ MonoBehaviour:
   storyText: 'I think I could convince them to come back if the corals recovered
     though. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -31942,7 +32289,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Ok, so... let me explain.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32030,7 +32377,7 @@ MonoBehaviour:
   storyText: You've not come to visit at a good time I'm afraid... as you can see,
     most of the reef city occupants have gone. When the coral bleached, they left.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -32078,7 +32425,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Well hello! What are you doing here?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -32247,7 +32594,7 @@ MonoBehaviour:
   storyText: So now all the zooxanthellea are gone! The corals can't live for more
     than a few months without them!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32276,7 +32623,7 @@ MonoBehaviour:
     expelled all their zooxanthellae! That's called coral bleaching, and it's why
     they're all white now.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32303,7 +32650,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'See, the coral polyps can''t survive on their own. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32330,7 +32677,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Our reef isn''t looking too great at the minute though... '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32358,7 +32705,7 @@ MonoBehaviour:
   storyText: A Coral is actually made up of hundreds of tiny animals called coral
     polyps!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32385,7 +32732,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Hopefully then all the other creatures will start to return too.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32413,7 +32760,7 @@ MonoBehaviour:
   storyText: 'They need to work together with microscopic algae called zooxanthellae
     which live in their tissues. These algae give the coral their colour. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32441,7 +32788,7 @@ MonoBehaviour:
   storyText: The ones called stony coral polyps attach themselves to rocks by secreting
     limestone, and eventually grow into huge coral reefs like this.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32646,7 +32993,7 @@ Transform:
   - {fileID: 831030803}
   - {fileID: 680494071}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1434119189
 GameObject:
@@ -33067,7 +33414,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 586.5, y: -38.369995}
+  m_AnchoredPosition: {x: 968.52, y: -60.2}
   m_SizeDelta: {x: 1106, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1459943618
@@ -33100,7 +33447,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
-    m_FontSize: 50
+    m_FontSize: 37
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -33274,7 +33621,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1468167660
 GameObject:
@@ -34721,6 +35068,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1512076646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1512076647}
+  - component: {fileID: 1512076648}
+  m_Layer: 0
+  m_Name: Goby person
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1512076647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512076646}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.433929, y: 22.558327, z: -137.89217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1395797195}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1512076648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512076646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Goby person
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 1277004117}
+  description: 
 --- !u!1 &1512485271
 GameObject:
   m_ObjectHideFlags: 0
@@ -35339,7 +35737,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1542909896
 GameObject:
@@ -36661,7 +37059,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Would you like to hear the story of the corals again? '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 500353533}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -36743,7 +37141,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1576478121}
   selectedCommands: []
   variables: []
   description: 
@@ -36837,7 +37236,7 @@ MonoBehaviour:
   storyText: 'A Coral is actually made up of hundreds of tiny animals called coral
     polyps! '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 500353533}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -36896,7 +37295,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Let me know if you want to hear it again.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 500353533}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -36925,7 +37324,7 @@ MonoBehaviour:
     expelled all their zooxanthellae! That's called coral bleaching, and it's why
     they're all white now.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 500353533}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -36953,7 +37352,7 @@ MonoBehaviour:
   storyText: 'The coral polyps can''t survive on their own. They need to work together
     with microscopic algae called zooxanthellae which live in their tissues. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 500353533}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -36981,7 +37380,7 @@ MonoBehaviour:
   storyText: The ones called stony coral polyps attach themselves to rocks by secreting
     limestone, and eventually grow into huge coral reefs like this.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 500353533}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -37008,7 +37407,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: These algae give the coral their colour.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 500353533}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -37178,7 +37577,7 @@ Transform:
   - {fileID: 1528277094}
   - {fileID: 2142557680}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1592559792
 GameObject:
@@ -39223,7 +39622,7 @@ Transform:
   - {fileID: 2014039565}
   - {fileID: 954468570}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1624116480
 GameObject:
@@ -39462,7 +39861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1789108659}
+  selectedFlowchart: {fileID: 1576478122}
 --- !u!4 &1635812431
 Transform:
   m_ObjectHideFlags: 1
@@ -43162,7 +43561,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Pleae bring 10 zooxanthellea for me to give to the branching coral polyps.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -43231,7 +43630,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Pleae bring 5 zooxanthellea for me to give to the pillar coral polyps.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -43256,7 +43655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 678
+    x: 679
     y: 163
     width: 118.8
     height: 40
@@ -43312,7 +43711,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Did you bring some zooxanthellea for the coral polyps?                           '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -43392,7 +43791,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1789108683}
   selectedCommands: []
   variables:
   - {fileID: 1789108669}
@@ -43571,7 +43971,7 @@ Transform:
   - {fileID: 1905163204}
   - {fileID: 407359756}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1789108669
 MonoBehaviour:
@@ -43604,10 +44004,10 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Pleae bring 3 zooxanthellea for me to give to the table coral polyps.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
-  showAlways: 1
+  showAlways: 0
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
@@ -43646,7 +44046,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: well done, you have restored this area of the city! (Demo complete)
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -43671,7 +44071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 844
+    x: 845
     y: 234
     width: 190
     height: 40
@@ -43716,7 +44116,7 @@ MonoBehaviour:
   storyText: Pillar coral is very tall. You could use these to reach things you couldn't
     before!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -43741,8 +44141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 844
-    y: 164
+    x: 845
+    y: 163
     width: 160.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -43786,7 +44186,7 @@ MonoBehaviour:
   storyText: The table corals have been restored! You could use them to jump on (Press
     space to jump)
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -46188,7 +46588,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1888384473
 GameObject:
@@ -46532,7 +46932,7 @@ MonoBehaviour:
     eating it all, but I can't get past the blasted spiny things. If I just had 5
     zooxanthellae...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -46560,7 +46960,7 @@ MonoBehaviour:
   storyText: Ahoy! Have you seen any of those huge spiky stars around? Crown of thorns
     starfish, they're called.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -46624,7 +47024,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1905163207}
   selectedCommands:
   - {fileID: 1905163210}
   variables: []
@@ -46672,7 +47073,7 @@ MonoBehaviour:
   storyText: Then I can restore this area and you could take the Triton with you!
     Tritons are sea snails that love to eat crown of thorns starfish.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1512076648}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -47394,7 +47795,7 @@ Transform:
   - {fileID: 1040012013}
   - {fileID: 1859611968}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1940998668
 GameObject:
@@ -49442,7 +49843,7 @@ Transform:
   - {fileID: 73625606}
   - {fileID: 443623096}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1999939232
 GameObject:
@@ -54327,13 +54728,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004974737}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -6.3, y: 25, z: 58.9}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 9.133929, y: 47.558327, z: -78.992165}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_Father: {fileID: 1020111663}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &2008559098
 GameObject:
@@ -56060,7 +56461,7 @@ Transform:
   - {fileID: 1120797782}
   - {fileID: 568778906}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2094542699
 GameObject:
@@ -56793,7 +57194,7 @@ Transform:
   m_Children:
   - {fileID: 6709644906700724291}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4032475069494163647
 PrefabInstance:
@@ -56804,7 +57205,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4032475068938002584, guid: 49a05c8948485e943b22eeb9174e690d, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4032475068938002584, guid: 49a05c8948485e943b22eeb9174e690d, type: 3}
       propertyPath: m_LocalPosition.x
