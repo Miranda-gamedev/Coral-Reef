@@ -116,6 +116,8 @@
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Save is easy/SaveIsEasyDLL.dll"
+-r:"Assets/Save is easy/SaveIsEasyEditorDLL.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -396,6 +398,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/GVX URP Decal/ExcludeFromGDecal.cs"
+"Assets/PlayerPrefsEditor/PlayerPrefsUtility.cs"
+"Assets/PlayerPrefsEditor/SimpleEncryption.cs"
+"Assets/Save is easy/Adapters/AnimationAdapter.cs"
+"Assets/Save is easy/Adapters/LineRendererAdapter.cs"
+"Assets/Save is easy/Examples/Example 1/ExampleCube.cs"
+"Assets/Save is easy/Examples/Example 2/Example2CubeMove.cs"
+"Assets/Save is easy/Examples/Example Menu/LoadPart.cs"
+"Assets/Save is easy/Examples/Example Menu/SaveIsEasyMenu.cs"
+"Assets/Save is easy/Examples/ExampleControlGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
