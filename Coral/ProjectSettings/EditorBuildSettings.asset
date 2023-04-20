@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CoralCity.unity
     guid: 9abd7d5e91a0a644c922b88b02a469a3
+  - enabled: 1
+    path: Assets/Scenes/Mangroves.unity
+    guid: a67170e4c433cb64ca21e6ce1aa6828c
   m_configObjects: {}
