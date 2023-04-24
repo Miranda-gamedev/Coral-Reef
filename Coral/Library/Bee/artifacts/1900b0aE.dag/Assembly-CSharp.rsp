@@ -399,6 +399,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/GVX URP Decal/ExcludeFromGDecal.cs"
+"Assets/LevelManager.cs"
+"Assets/LevelScript.cs"
 "Assets/PlayerPrefsEditor/PlayerPrefsUtility.cs"
 "Assets/PlayerPrefsEditor/SimpleEncryption.cs"
 "Assets/Save is easy/Adapters/AnimationAdapter.cs"
