@@ -26,7 +26,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 65472
   tint:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 1, g: 0.7605321, b: 0.031372547, a: 1}
   highQualityFiltering:
     m_OverrideState: 0
@@ -89,10 +89,10 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: -22
+    m_Value: -43.3
   tint:
     m_OverrideState: 1
-    m_Value: 13
+    m_Value: 58
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
